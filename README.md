@@ -10,3 +10,18 @@ LFS - Large File Storage allows us to push large assets to the repository and th
 
 ## Project Setup
 to be written..
+
+## Story points
+Story points are used to reflect on the approx. time spent on issues and the project itself. You can find those added behind the issue titles in []-brackets.
+I used the fibonacci sequence for this and added a table with what they mean to me:
+
+| Fibonacci | Meaning in hours |
+| :--- | ------: |
+|  1   | 0 - 1   |
+|  2   | 1 - 2   |
+|  3   | 2 - 4   |
+|  5   | 4 - 6   |
+|  8   | 6 - 8   |
+|  13  | 8 - 14  |
+|  21  | 14 - 24 |
+|  34  | 24 - 40 |
