@@ -1149,4 +1149,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controller: {fileID: 1983870082}
-  runSpeed: 40
+  runSpeed: 30
