@@ -2,7 +2,7 @@
 College EVC unity project repository for the Dadao 2D game platformer. The unity version used is 2020.3.0f1 LTS.
 
 ## What is Dadao?
-to be written..
+[Dadao game pitch presentation](https://github.com/NicolasDurant/Dadao/blob/master/_docs/20210413_Dadao_NicolasFrankDurant.pdf)
 
 ## Github for Unity
 This project was setup using the github for unity plugin [Github for Unity](https://unity.github.com/). This depends on having [git](https://git-scm.com/) and [git-lfs](https://git-lfs.github.com/) installed.
