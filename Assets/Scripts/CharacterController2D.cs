@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -31,6 +32,21 @@ public class CharacterController2D : MonoBehaviour
 
 	public BoolEvent OnCrouchEvent;
 	private bool m_wasCrouching = false;
+
+	private void Start()
+	{
+		DontDestroyOnLoad(gameObject);
+	}
+
+	private void OnLevelWasLoaded(int level)
+	{
+		FindStartingPosition();
+	}
+
+	private void FindStartingPosition()
+	{
+		transform.position = GameObject.FindWithTag("StartPos").transform.position;
+	}
 
 	private void Awake()
 	{
