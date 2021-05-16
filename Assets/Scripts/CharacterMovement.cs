@@ -5,6 +5,7 @@ using UnityEngine;
 public class CharacterMovement : MonoBehaviour
 {
     public CharacterController2D controller;
+    public Animator animator;
     public float runSpeed = 40f;
 
     private float horizontalMove = 0f;
@@ -15,17 +16,31 @@ public class CharacterMovement : MonoBehaviour
     void Update()
     {
         horizontalMove = Input.GetAxisRaw("Horizontal") * runSpeed;
+        animator.SetFloat("Speed", Mathf.Abs(horizontalMove));
         if (Input.GetButtonDown("Jump"))
         {
             jump = true;
+            animator.SetBool("IsJumping", true);
         }
         if (Input.GetButtonDown("Slide"))
         {
             slide = true;
+            animator.SetBool("IsSliding", true);
         } else if (Input.GetButtonUp("Slide"))
         {
             slide = false;
+            animator.SetBool("IsSliding", false);
         }
+    }
+
+    public void OnLanding()
+    {
+        animator.SetBool("IsJumping", false);
+    }
+
+    public void OnSliding(bool isSliding)
+    {
+        animator.SetBool("IsSliding", isSliding);
     }
 
     private void FixedUpdate()
