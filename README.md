@@ -1,5 +1,5 @@
 # Dadao
-College EVC unity project repository for the Dadao 2D game platformer. The unity version used is 2020.3.0f1 LTS.
+College EVC unity project repository for the Dadao 2D game platformer. The unity version used is 2020.3.1f1 LTS.
 
 ## What is Dadao?
 [Dadao game pitch presentation](https://github.com/NicolasDurant/Dadao/blob/master/_docs/20210413_Dadao_NicolasFrankDurant.pdf)
