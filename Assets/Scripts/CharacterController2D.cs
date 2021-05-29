@@ -162,4 +162,12 @@ public class CharacterController2D : MonoBehaviour
 		theScale.x *= -1;
 		transform.localScale = theScale;
 	}
+
+	private void OnTriggerEnter2D(Collider2D other)
+	{
+		if (other.tag == "FallDetector")
+		{
+			FindStartingPosition();
+		}
+	}
 }
