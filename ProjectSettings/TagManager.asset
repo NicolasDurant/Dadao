@@ -7,6 +7,7 @@ TagManager:
   - StartPos
   - BackgroundCollider
   - FallDetector
+  - Enemy
   layers:
   - Default
   - TransparentFX
