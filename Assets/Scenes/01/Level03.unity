@@ -345,8 +345,8 @@ TilemapRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -1216537983
-  m_SortingLayer: -2
+  m_SortingLayerID: 522575885
+  m_SortingLayer: -1
   m_SortingOrder: 0
   m_ChunkSize: {x: 32, y: 32, z: 32}
   m_ChunkCullingBounds: {x: 2.5078125, y: 2.8691406, z: 0}
@@ -1091,7 +1091,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 9
-      m_TileSpriteIndex: 9
+      m_TileSpriteIndex: 10
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -1161,7 +1161,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 7
-      m_TileSpriteIndex: 7
+      m_TileSpriteIndex: 9
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -1201,7 +1201,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 4
-      m_TileSpriteIndex: 4
+      m_TileSpriteIndex: 7
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -1211,7 +1211,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 2
-      m_TileSpriteIndex: 2
+      m_TileSpriteIndex: 4
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -1231,7 +1231,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 1
-      m_TileSpriteIndex: 1
+      m_TileSpriteIndex: 2
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -1264,26 +1264,26 @@ Tilemap:
   m_TileSpriteArray:
   - m_RefCount: 2
     m_Data: {fileID: 21300000, guid: 9fede035b5b014147ab93e5eba9117dc, type: 3}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
   - m_RefCount: 1
     m_Data: {fileID: 21300000, guid: 8c4c9e91ad1354ffebc96116d8e4267b, type: 3}
   - m_RefCount: 1
-    m_Data: {fileID: 21300000, guid: dd80de65e54ba44898012afdbff5ab09, type: 3}
-  - m_RefCount: 1
     m_Data: {fileID: 21300000, guid: 5c7f9168e14f641f095b8cf94a675201, type: 3}
   - m_RefCount: 1
-    m_Data: {fileID: 21300000, guid: 1204d759ed3d8443da8cfafa57771845, type: 3}
+    m_Data: {fileID: 21300000, guid: dd80de65e54ba44898012afdbff5ab09, type: 3}
   - m_RefCount: 4
     m_Data: {fileID: 21300000, guid: 9a6d9f0f70e05452da5cdc86f4044ef5, type: 3}
   - m_RefCount: 3
     m_Data: {fileID: 21300000, guid: 1fb3f6f89455b4adc9324f844f0cd649, type: 3}
   - m_RefCount: 1
-    m_Data: {fileID: 21300000, guid: 4c9194f88c89a45cdb7cfe8d30aafdc5, type: 3}
+    m_Data: {fileID: 21300000, guid: 1204d759ed3d8443da8cfafa57771845, type: 3}
   - m_RefCount: 4
     m_Data: {fileID: 21300000, guid: 10f63a60d56ac44019c744160f45869c, type: 3}
   - m_RefCount: 1
+    m_Data: {fileID: 21300000, guid: 4c9194f88c89a45cdb7cfe8d30aafdc5, type: 3}
+  - m_RefCount: 1
     m_Data: {fileID: 21300000, guid: f1f2f429862a2418a88ed714d2663af3, type: 3}
-  - m_RefCount: 0
-    m_Data: {fileID: 0}
   m_TileMatrixArray:
   - m_RefCount: 19
     m_Data:
@@ -3269,8 +3269,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 16.767792, y: 2.5933294, z: -0.75306714}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 824342342}
+  m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -3345,7 +3344,7 @@ TilemapRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 522575885
   m_SortingLayer: -1
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_ChunkSize: {x: 32, y: 32, z: 32}
   m_ChunkCullingBounds: {x: 3.5725074, y: 6.6085935, z: 0}
   m_MaxChunkCount: 16
@@ -3881,8 +3880,8 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 272574697}
-  m_Father: {fileID: 729052270}
-  m_RootOrder: 0
+  m_Father: {fileID: 1417798776}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!156049354 &824342343
 Grid:
@@ -3955,6 +3954,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1830459069}
+  - {fileID: 824342342}
   - {fileID: 1753771428}
   m_Father: {fileID: 0}
   m_RootOrder: 2
@@ -4045,7 +4045,7 @@ Transform:
   m_Children:
   - {fileID: 750970930}
   m_Father: {fileID: 1417798776}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1830459068
 GameObject:
