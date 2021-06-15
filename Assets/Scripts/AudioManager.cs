@@ -41,7 +41,6 @@ public class AudioManager : MonoBehaviour
 		Sound s = Array.Find(sounds, item => item.name == currentlyPlaying);
 		// When there is no song playing we randomly play a new one from the existing list
         if (!s.source.isPlaying) {
-			Debug.LogWarning("Not PLAYING");
 			StopPlaying(currentlyPlaying);
 			Random random = new Random();
 			Play(sounds[random.Next(0, sounds.Length)].name);
