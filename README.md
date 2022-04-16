@@ -8,6 +8,9 @@ College EVC unity project repository for the Dadao 2D game platformer. The unity
 This project was setup using the github for unity plugin [Github for Unity](https://unity.github.com/). This depends on having [git](https://git-scm.com/) and [git-lfs](https://git-lfs.github.com/) installed.
 LFS - Large File Storage allows us to push large assets to the repository and they should be automatically moved to the git file server to spare us space in the repository.
 
+## Releases
+The current version of the game can be found and play-tested under https://play.unity.com/mg/other/webgl-builds-57301 .
+
 ## Project Setup
 to be written..
 
